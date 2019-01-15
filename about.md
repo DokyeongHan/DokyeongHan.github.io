@@ -1,10 +1,15 @@
 ---
-layout: default
 title: About Vinit Kumar
+layout: default
 ---
 
 <h1 class="owner-name">{{ site.owner.name}} </h1>
 ![user-avatar]({{ site.owner.avatar }})
+
+
+<p>Dept. of Computer Science. Kangwon National Univ.</p>
+
+<p>ChunCheon, Kangwon, Republic of Korea.</p>
 
 {{site.about}}
 
