@@ -1,0 +1,28 @@
+name: Dokyeong Han
+description: >-
+  wake & bake
+about: 'Kangwon National Univ, Republic of korea.'
+master_repo: 'false'
+url: 'http://dokyeonghan.github.io'
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+paginate: 4
+logo: logo.png
+disqus_shortname: null
+rtl: false
+owner:
+  name: Dokyeong Han
+  avatar: 'https://avatars3.githubusercontent.com/u/43871923?s=400&u=e0281685d3c5820d588959abff216299dc4d2113&v=4'
+  email: dkhan@kangwon.ac.kr
+  twitter: null
+  github: 'https://github.com/dokyeonghan'
+  stackexchange: null
+  linkedin: null
+  google_plus: null
+google_analytics: null
+google_verify: null
+bing_verify: null
