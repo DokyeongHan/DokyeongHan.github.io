@@ -8,7 +8,8 @@ module.exports = function(grunt) {
           'css/base.css',
           'css/syntax/emacs.css',
           'css/octicons.css',
-          'css/font-awesome.min.css'
+          'css/font-awesome.min.css',
+          'css/syntax/vim.css'
         ],
         dest: 'css/<%= pkg.name %>.add.css'
       }

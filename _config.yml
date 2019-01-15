@@ -9,12 +9,12 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
-paginate: 4
+paginate: '4'
 logo: logo.png
 disqus_shortname: null
 rtl: false
 owner:
-  name: Dokyeong Han (한도경)
+  name: Dokyeong Han 한도경
   avatar: >-
     https://avatars3.githubusercontent.com/u/43871923?s=400&u=e0281685d3c5820d588959abff216299dc4d2113&v=4
   email: dkhan@kangwon.ac.kr
