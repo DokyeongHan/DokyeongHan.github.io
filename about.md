@@ -1,15 +1,17 @@
 ---
-title: About Vinit Kumar
+title: About Han
 layout: default
 ---
 
-<h1 class="owner-name">{{ site.owner.name}} </h1>
+<h1 class="owner-name"><tt>{{ site.owner.name}}</tt> </h1>
 ![user-avatar]({{ site.owner.avatar }})
 
 
 <p>Dept. of Computer Science. Kangwon National Univ.</p>
 
 <p>ChunCheon, Kangwon, Republic of Korea.</p>
+
+<p>Email : dkhan@kangwon.ac.kr</p>
 
 {{site.about}}
 

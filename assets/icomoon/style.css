@@ -1,6 +1,10 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Nanum+Gothic|Nanum+Myeongjo');
 
-body {
-    font-family: "Nanum Gothic", sans-serif;
+body{
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
 }
- 
+
+tt{
+font-family: 'Kaushan Script', cursive;
+}
