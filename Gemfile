@@ -6,3 +6,4 @@ gem "jekyll"
 gem 'jekyll-feed'
 gem "rouge"
 gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll-seo-tag'
