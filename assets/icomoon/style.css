@@ -2,9 +2,9 @@
 
 body{
 font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Nanum Myeongjo', serif;
+font-family: 'Nanum Myeongjo', serif !important;
 }
 
 tt{
-font-family: 'Kaushan Script', cursive;
+font-family: 'Kaushan Script', cursive !important;
 }
