@@ -12,7 +12,7 @@ plugins:
   - jekyll-seo-tag
 paginate: 4
 logo: logo.png
-disqus_shortname: null
+disqus_shortname: dokyeonghan
 rtl: false
 owner:
   name: Dokyeong Han
