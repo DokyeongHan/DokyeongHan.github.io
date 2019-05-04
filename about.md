@@ -4,7 +4,7 @@ layout: page
 permalink: "/about/"
 ---
 
-<h1>{{ site.theme_settings.name}} </h1>
+<center><h1>{{ site.theme_settings.name}} </h1></center>
 ![avatar]({{ site.theme_settings.avatar }})
 
 <p>Dept. of Computer Science. Kangwon National Univ.</p>

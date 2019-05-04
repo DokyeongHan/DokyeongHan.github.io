@@ -14,8 +14,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>안녕하세요.</p>
-  header_text_feature_image:
+     <p>     </p>
+  header_text_feature_image: assets/img/header.png
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
@@ -83,3 +83,5 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+disqus_shortname: dokyeonghan
