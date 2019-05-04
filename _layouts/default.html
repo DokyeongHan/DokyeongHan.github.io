@@ -1,26 +1,11 @@
 <!DOCTYPE html>
-{% if site.rtl %}
-<html dir="rtl">
-{% else %}
-<html>
-{% endif %}
-<head>
+<html class="no-js">
   {% include head.html %}
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Nanum+Myeongjo" rel="stylesheet">
-    {% seo %}
-</head>
-    
-<body>
-    <tt>
-  {% include header.html %}
-        </tt>
-  <div class="container">
-  {{ content }}
-  {% include footer.html %}
-  </div><!-- /.main -->
-    <br />
-    <br />
-    <br />
-    <script id="dsq-count-scr" src="//dokyeonghan.disqus.com/count.js" async></script>
-</body>
+  <body>
+    {% include header.html %}
+    <div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
 </html>

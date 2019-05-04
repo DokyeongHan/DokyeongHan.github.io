@@ -1,11 +1,11 @@
 ---
-title: About Han
-layout: default
+title: About
+layout: page
+permalink: "/about/"
 ---
 
-<h1 class="owner-name"><tt>{{ site.owner.name}}</tt> </h1>
-![user-avatar]({{ site.owner.avatar }})
-
+<h1>{{ site.theme_settings.name}} </h1>
+![avatar]({{ site.theme_settings.avatar }})
 
 <p>Dept. of Computer Science. Kangwon National Univ.</p>
 
@@ -13,29 +13,7 @@ layout: default
 
 <p>Email : dkhan@kangwon.ac.kr</p>
 
-{{site.about}}
 
-
-
-<div class="pagination">
-  {% if site.owner.linkedin %}
-    <a href="{{ site.owner.linkedin }}" class="social-media-icons"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.email %}
-    <a href="mailto:{{ site.owner.email }}" class="social-media-icons"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.twitter %}
-    <a href="{{ site.owner.twitter }}" class="social-media-icons"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.github %}
-    <a href="{{ site.owner.github }}" class="social-media-icons"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.stackexchange %}
-    <a href="{{ site.owner.stackexchange }}" class="social-media-icons"><i class="fa fa-2x fa-stack-overflow" aria-hidden="true"></i></a>
-  {% endif %}
-</div>
-
-<br>
 
 <div id = "map" style = "width:100%;height:400px;"></div>
 
