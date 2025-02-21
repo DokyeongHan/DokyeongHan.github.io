@@ -1,0 +1,12 @@
+# 테마 설정
+theme: hydejack
+hydejack:
+  # 테마 버전 지정 (최신 버전 확인 필요)
+  version: "9.1.6"
+
+# 기본 설정
+baseurl: "/"
+url: "https://your-domain.com"
+title: "Your Blog Title"
+description: "Your blog description"
+locale: "ko-KR"
